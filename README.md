@@ -9,3 +9,4 @@ Fitur App:
 4. Untuk halaman Profil, user bisa mengedit data diri
 
 Dibawah ini saya lamparan prototype yg telah saya buat :
+https://drive.google.com/open?id=1Y8L69mAUAuanEc2T9V78slaWZLY-nFkW
