@@ -31,9 +31,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:hint="@string/email"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
+        android:hint="@string/email"
         android:textColorHint="@android:color/white" />
 
     <EditText
@@ -53,9 +53,24 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/bg_txtview"
-        android:text="login"
-        android:textColor="#2196F3"
-         />
+        android:text="@string/login"
+        android:id="@+id/btnLogin"
+        android:textColor="#2196F3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/belum_punya_akun" />
+
+    <TextView
+        android:id="@+id/linkRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/daftar_sekarang"
+        android:textColor="@android:color/white" />
 
 
 </LinearLayout>
